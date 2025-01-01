@@ -23,10 +23,10 @@ const Header = () => {
             {/* Navigation Links */}
             <div className='flex flex-row items-start p-0 gap-10 w-[551.5px] h-[24px] ml-[400px]'>
                 
-                <div className='cursor-pointer flex items-center gap-4'>Products<img src="/images/Vector.png"></img></div>
-                <div className='cursor-pointer flex items-center gap-4'>Solutions<img src="/images/Vector.png" ></img></div>
-                <div className='cursor-pointer flex items-center gap-4'>Resources<img src="/images/Vector.png"></img></div>
-                <div className='cursor-pointer flex items-center gap-4'>Pricing<img src="/images/Vector.png"></img></div>
+                <div className='cursor-pointer flex items-center gap-4'>Products<Image src="/images/Vector.png" alt="vector-image" width={9} height={4}/></div>
+                <div className='cursor-pointer flex items-center gap-4'>Solutions<Image src="/images/Vector.png" alt="vector-image" width={9} height={4}/></div>
+                <div className='cursor-pointer flex items-center gap-4'>Resources<Image src="/images/Vector.png" alt="vector-image" width={9} height={4}/></div>
+                <div className='cursor-pointer flex items-center gap-4'>Pricing<Image src="/images/Vector.png" alt="vector-image" width={9} height={4}/></div>
 
             </div>
                 
@@ -38,7 +38,7 @@ const Header = () => {
                 </div>
 
                 <div className="flex flex-row justify-center items-center px-6 py-4 gap-2 w-[227px] h-[60px] bg-[#4f9cf9] rounded-lg">
-                <button className="flex items-center gap-8">Try Whitepace Free<img src="/images/arrow.png"></img></button>
+                <button className="flex items-center gap-8">Try Whitepace Free<Image src="/images/arrow.png" alt="arrow-image" width={5} height={10}/></button>
                 </div>
                 
             
