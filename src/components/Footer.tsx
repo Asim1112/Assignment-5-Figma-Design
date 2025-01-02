@@ -13,7 +13,7 @@ export default function Footer() {
           <div>
             <h2 className="text-lg font-semibold mb-4">Product</h2>
             <ul>
-              <li className="mb-2"><a href="#" className="hover:underline">Overview</a></li>
+              <li className="mb-2 text-[rgba(255,228,146,1)]"><a href="#" className="hover:underline">Overview</a></li>
               <li className="mb-2"><a href="#" className="hover:underline">Pricing</a></li>
               <li><a href="#" className="hover:underline">Customer stories</a></li>
             </ul>
